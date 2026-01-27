@@ -32,6 +32,8 @@ These settings act as the "personality" of the agent:
 
 Learning happens through the Q-Learning update rule. This formula calculates the difference between the agent's expectation and the actual outcome:
 
+$$Q(s, a) \leftarrow Q(s, a) + \alpha [R + \gamma \max_{a'} Q(s', a') - Q(s, a)]$$
+
 **How it works in the code:**
 
 * **next_state ():** Where the agent landed.
