@@ -129,3 +129,8 @@ D) To maximize accuracy.
 ### Question 9
 **User:** What is the primary similarity between classification and regression problems in machine learning?
 **Answer:** Both of them are supervised learning as they both use labeled data.
+
+
+### 'Log Loss' or 'Binary Cross-Entropy' or 'Binary Entropy' is the loss function used in binary classification. 
+
+### In XGBoost and LGBoost there is a parameter called objective = 'multiclass' so for the binary class classification we use the objective = 'binary'
